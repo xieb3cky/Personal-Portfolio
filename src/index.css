@@ -7,7 +7,7 @@
 :root {
 
   /**Colors**/
-  --first-color: white;
+  --first-color: #ff847c;
   --title-color: #222831;
   --text-color: #222831;
   --body-color: #f0ece2;
@@ -15,7 +15,7 @@
 
   /**Font**/
   --body-font: 'Nunito', sans-serif;
-  --h1-font-size: 2rem;
+  --h1-font-size: 2.5rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
@@ -76,4 +76,54 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+
+/* .container {
+  max-width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.section {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.section_title {
+  font-size: var(--h1-font-size);
+  margin-left: 0.8rem;
+  font-weight: var(--font-bold);
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+
+.section_title::before {
+  content: '';
+  height: 2.25rem;
+  width: 2.25rem;
+  position: absolute;
+  left: -0.875rem;
+  right: -0.875rem;
+} */
+
+
+.btn {
+  padding: 0.75rem 2rem;
+  line-height: 1;
+  border-radius: 1.875rem;
+  box-shadow: 0 0 1px rgb(0 0 0/0%);
+  border: 1px solid transparent;
+  color: #fff;
+  display: inline-block;
+  background-color: var(--first-color);
+}
+
+.btn:hover {
+  animation: button-push 0.3s linear 1;
 }
