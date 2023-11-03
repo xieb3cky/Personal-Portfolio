@@ -1,0 +1,23 @@
+.home-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro {
+    max-width: 540px;
+    text-align: center;
+}
+
+.home-img {
+    margin-bottom: 1.5rem;
+}
+
+.home-name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 0.5rem;
+}
