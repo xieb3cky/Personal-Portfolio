@@ -4,17 +4,76 @@
 
 /***** Variables *****/
 
-::root{
+:root {
 
   /**Colors**/
   --first-color: white;
-  --title-color: white;
-  --text-color: grey;
-  --body-color: light-grey;
-  --container-color: light-grey;
+  --title-color: #222831;
+  --text-color: #222831;
+  --body-color: #f0ece2;
+  --container-color: ##fafafa;
 
-  /**Fonts**/
+  /**Font**/
   --body-font: 'Nunito', sans-serif;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.75rem;
 
+  /**Font Weight**/
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-weight-semibold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
