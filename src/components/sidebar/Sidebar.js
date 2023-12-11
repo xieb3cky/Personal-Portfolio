@@ -3,7 +3,6 @@ import WomenIcon from '../../assets/woman.png';
 import './Sidebar.css';
 import { SlMenu } from 'react-icons/sl';
 // import { TbCircleLetterB } from 'react-icons/tb';
-import { LiaHandPeace } from 'react-icons/lia';
 import { RiContactsBookLine, RiListIndefinite, RiBriefcaseLine, RiUser3Line, RiHomeSmile2Line } from "react-icons/ri";
 // import { RiEmotionHappyLine } from "react-icons/ri";
 export default function Sidebar() {
@@ -51,7 +50,6 @@ export default function Sidebar() {
 
                 <div className="nav_footer">
                     <span className="footer nav-link">
-                        <LiaHandPeace />
                     </span>
                 </div>
             </aside >
