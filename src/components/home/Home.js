@@ -13,7 +13,7 @@ export default function Home() {
                     Software Engineer
                 </div>
                 <HomeSocials />
-                <a href="#learn" className="learn-more btn">Learn More</a>
+                <a href="#About" className="learn-more btn">Learn More</a>
             </div>
         </section>
     )
