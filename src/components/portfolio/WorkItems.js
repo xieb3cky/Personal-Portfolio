@@ -1,5 +1,8 @@
 import CharginStationImg from '../../assets/quickSearch.gif';
 import NextRoleImg from "../../assets/loginapply.gif";
+import JeopardyImg from "../../assets/jeopardy.gif";
+import MemoryGameImg from "../../assets/memoryCardGame.gif";
+
 const WorkItems = [
     {
         id: 1,
@@ -14,6 +17,20 @@ const WorkItems = [
         title: "Next Role",
         category: "Fullstack",
         link: "https://github.com/xieb3cky/NextRole-Frontend"
+    },
+    {
+        id: 3,
+        image: JeopardyImg,
+        title: "Jeopardy",
+        category: "Other",
+        link: "https://github.com/xieb3cky/Jeopardy"
+    },
+    {
+        id: 4,
+        image: MemoryGameImg,
+        title: "Memory Card Game",
+        category: "Other",
+        link: "https://github.com/xieb3cky/Memory-Card-Game"
     },
 ]
 
