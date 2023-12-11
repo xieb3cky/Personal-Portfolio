@@ -1,0 +1,51 @@
+.tech-container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.tech-category {
+    text-align: center;
+    padding: 0 1.25rem 1.25rem;
+}
+
+.tech-title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1.5rem;
+}
+
+.tech-item {
+    background-color: var(--container-color);
+    padding: 1.875rem;
+    margin-top: 1.5rem;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.tech-item::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--container-color);
+    position: absolute;
+    left: 50%;
+    top: -0.625rem;
+    transform: translate(-7.5px);
+}
+
+/* General style for pagination bullet */
+
+.swiper-pagination-bullet {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--first-color) !important;
+    opacity: 1;
+}
+
+/* Style for active pagination bullet */
+.swiper-pagination-bullet-active {
+    background-color: white;
+}
