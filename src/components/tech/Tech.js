@@ -21,19 +21,34 @@ export default function Tech() {
                 pagination={{ clickable: true }}
             >
                 <SwiperSlide className="tech-category">
-                    <h3 className="tech-title">Front-End</h3>
-                    <div className="tech-item">React, JavaScript, HTML, CSS, TailwindCSS, Bootstrap
+                    <h3 className="tech-title">Languages</h3>
+                    <div className="tech-item">HTML5 | JavaScript (ES6) | Python | Java | SQL
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="tech-category">
-                    <h3 className="tech-title">Back-End</h3>
-                    <div className="tech-item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde officiis incidunt totam accusamus mollitia. Voluptatum, est, nesciunt alias et quae recusandae, unde eius earum in quis ipsum possimus nihil corporis!</div>
+                    <h3 className="tech-title">Frameworks</h3>
+                    <div className="tech-item">Express (Node.js) | Flask | React/React Native | Tailwind CSS
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className="tech-category">
+                    <h3 className="tech-title">Database</h3>
+                    <div className="tech-item">
+                        PostgreSQL
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className="tech-category">
+                    <h3 className="tech-title">Testing</h3>
+                    <div className="tech-item">
+                        Jest | Jasmine
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="tech-category">
                     <h3 className="tech-title">Other</h3>
-                    <div className="tech-item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde officiis incidunt totam accusamus mollitia. Voluptatum, est, nesciunt alias et quae recusandae, unde eius earum in quis ipsum possimus nihil corporis!</div>
+                    <div className="tech-item">
+                        BigTime | DoubleVerify | Google Campaign Manager 360 | Quickbooks
+                        <div>Git | Github | Heroku </div>
+                    </div>
                 </SwiperSlide>
-
             </Swiper>
         </section>
     )
