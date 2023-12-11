@@ -13,7 +13,8 @@ export default function About() {
                     <div className="about-info">
                         <p className="about-description">
                             Hello there! 👋 I'm a dynamic professional with a strong background in digital advertising and accounting.
-                            As a graduate of the SpringBoard Software Engineering Program, I've seamlessly merged my skills in full-stack development, along with valuable experience in developing APIs, various programming languages, and frameworks.
+                            As a graduate of the SpringBoard Software Engineering Program, I've experience in full-stack development,
+                            APIs, various programming languages, and frameworks.
                             My passion lies in utilizing technology to help others solve problems and enhance workflow efficiency.
                             Let's connect and explore how my diverse skill set can contribute to meaningful and innovative solutions! <span className='learn-more-about'>Learn more below! 👇</span>
                         </p>
