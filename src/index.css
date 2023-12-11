@@ -10,8 +10,8 @@
   --first-color: #e37239;
   --title-color: #222831;
   --text-color: #222831;
-  --body-color: #f0ece2;
-  --container-color: #DDD2C2;
+  --body-color: #f0ece2; 
+  --container-color: #dfd3c3; 
 
   /**Font**/
   --body-font: 'Nunito', sans-serif;
