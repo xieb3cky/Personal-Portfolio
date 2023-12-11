@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import WomenIcon from '../../assets/woman.png';
 import './Sidebar.css';
 import { SlMenu } from 'react-icons/sl';
-import { TbCircleLetterB } from 'react-icons/tb';
+// import { TbCircleLetterB } from 'react-icons/tb';
 import { LiaHandPeace } from 'react-icons/lia';
-import { RiEmotionHappyLine, RiContactsBookLine, RiListIndefinite, RiBriefcaseLine, RiUser3Line, RiHomeSmile2Line } from "react-icons/ri";
+import { RiContactsBookLine, RiListIndefinite, RiBriefcaseLine, RiUser3Line, RiHomeSmile2Line } from "react-icons/ri";
+// import { RiEmotionHappyLine } from "react-icons/ri";
 export default function Sidebar() {
     const [menu, showMenu] = useState(false);
     return (
