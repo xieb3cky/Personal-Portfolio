@@ -1,16 +1,18 @@
 import React from 'react';
 import './Home.css';
-import ImageOfMe from "../../assets/avatar-1.svg";
+import HomeSocials from './HomeSocials';
+import ImageOfMe from "../../assets/me.jpg";
+
 export default function Home() {
     return (
-        <section className="home-container">
+        <section className="home container" id="Home">
             <div className="intro">
                 <img src={ImageOfMe} alt="" className="home-img" />
                 <h1 className="home-name">Becky Xie</h1>
-                <span className="home-education">
-                    I'm a Software Engineer!
-                </span>
-
+                <div className="home-education">
+                    Software Engineer
+                </div>
+                <HomeSocials />
                 <a href="#learn" className="learn-more btn">Learn More</a>
             </div>
         </section>
