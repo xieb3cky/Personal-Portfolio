@@ -23,6 +23,7 @@
 }
 
 .work-card {
+    background-color: var(--container-color);
     position: relative;
     overflow: hidden;
     border-radius: var(--border-radius);
@@ -35,7 +36,7 @@
 }
 
 .work-mask {
-    background-color: #e4b384;
+    background-color: #c2ae91;
     position: absolute;
     left: 0;
     top: 0;
@@ -54,9 +55,10 @@
     font-size: var(--h3-font-size);
     margin: 0 0 0.98rem;
     padding: 0 1.25rem;
-    position: absolute;
+    position: absolute; 
     top: 3.75rem;
-    transform: translateY(30px);
+    transform: translateY(-50%);
+    transform: translateX(-50%); 
     transition: .3s;
     opacity: 0;
 }
