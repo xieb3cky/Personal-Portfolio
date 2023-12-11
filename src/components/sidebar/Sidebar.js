@@ -34,11 +34,11 @@ export default function Sidebar() {
                                     <RiListIndefinite />
                                 </a>
                             </li>
-                            <li className="nav_item">
+                            {/* <li className="nav_item">
                                 <a href="#FunFacts" className="nav-link">
                                     <RiEmotionHappyLine />
                                 </a>
-                            </li>
+                            </li> */}
                             <li className="nav_item">
                                 <a href="#Contact" className="nav-link">
                                     <RiContactsBookLine />
