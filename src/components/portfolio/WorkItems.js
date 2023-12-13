@@ -7,7 +7,7 @@ const WorkItems = [
     {
         id: 1,
         image: CharginStationImg,
-        title: "Chargin Station",
+        title: "Charging Station",
         category: "Fullstack",
         link: "https://github.com/xieb3cky/Cstation_Frontend"
     },
