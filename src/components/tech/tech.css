@@ -13,7 +13,7 @@
     margin-bottom: 1.5rem;
 }
 
-.tech-item {
+.tech-items {
     background-color: var(--container-color);
     padding: 1.875rem;
     margin-top: 1.5rem;
@@ -23,7 +23,8 @@
     margin-bottom: 3rem;
 }
 
-.tech-item::before {
+
+.tech-items::before {
     content: "";
     width: 0;
     height: 0;
@@ -34,6 +35,12 @@
     left: 50%;
     top: -0.625rem;
     transform: translate(-7.5px);
+}
+
+.tech-items .tech-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 2px;
 }
 
 /* General style for pagination bullet */
