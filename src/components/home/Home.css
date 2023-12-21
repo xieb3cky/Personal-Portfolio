@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--body-color);
 }
 
 .intro {
@@ -23,10 +24,6 @@
     border-radius: 50%;
 }
 
-.home-education {
-    margin-bottom: 1rem;
-}
-
 .home-socials {
     margin: 1.5rem 0;
 }
@@ -41,4 +38,31 @@
 
 .home-social-link:hover {
     color: var(--first-color);
+}
+
+/***Animated text styling**/
+
+.home-title {
+    color: var(--first-color);
+}
+
+.animated-text {
+    width: 21ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #e37239;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
