@@ -9,7 +9,7 @@ export default function Home() {
                 {/* <img src={ImageOfMe} alt="" className="home-img" /> */}
                 <h1 className="home-name">Becky Xie</h1>
                 <div className="animated-text">
-                    I'm a <span className="home-title">Full-Stack Developer</span>
+                    <span className="home-title">Full-Stack Developer </span>
                 </div>
                 <HomeSocials />
                 <a href="#About" className="learn-more btn">Learn More</a>
