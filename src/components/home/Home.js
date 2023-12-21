@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
 import HomeSocials from './HomeSocials';
-import ImageOfMe from "../../assets/anime-style.png";
 
 export default function Home() {
     return (
